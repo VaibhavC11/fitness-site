@@ -15,7 +15,7 @@ body {
 .navbar {
     color: white;
     background-image: none;
-    background-color: rgba(0, 0, 0, 0.6); /* transparency of header using rgba */
+    background-color: rgba(0, 0, 0, 0.7); /* transparency of header using rgba */
     position: sticky;
     top: 0%;
     padding: 15px;
@@ -155,11 +155,11 @@ li {
 }
 
 .subheading a {
-    color: rgb(219, 27, 59);
+    color: rgb(248, 6, 46);
 }
 
 .subheading a:hover, .subheading a:active {
-    color: rgb(190, 29, 29);
+    color: rgb(218, 20, 20);
 }
 
 .discount {
@@ -181,4 +181,11 @@ span#s2 {
 
 span#s3 {
     font-weight: bold;
+}
+
+.s2 {
+    background-image: none;
+    background-color: rgb(245, 220, 220);
+    position: relative;
+    top: 550px;
 }
