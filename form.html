@@ -39,24 +39,34 @@
         <form action="backend.django">
             <div class="form-group">
                 Name: 
-                <input type="text" placeholder="Enter your name">
+                <input type="text" placeholder="Enter your name" id="name" required>
             </div>
             <div class="form-group">
-                Sex: 
-                <input type="text" placeholder="Enter your name">
+                <label for="gender">
+                    <select name="gender" id="gender">
+                        <option value="" id="select"><--Select your Gender--></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
             </div>
             <div class="form-group">
                 Date of Birth: 
-                <input type="text" placeholder="Enter your name">
+                <input type="date" name="dateofbirth" id="dob" required>
             </div>
             <div class="form-group">
-                <input type="text" placeholder="Enter your name">
+                <div>
+                    <div>Address: </div> 
+                    <textarea name="address" id="address" cols="80" rows="10"></textarea>
+                </div>
             </div>
             <div class="form-group">
-                <input type="text" placeholder="Enter your name">
+                Email: 
+                <input type="email" name="email" id="email">
             </div>
         </form>
-        <button class="btn" id="submit">Submit</button>
+        <button class="btn" id="submit"><strong>Submit</strong></button>
         <hr>
         <button class="btn" id="pay-now"><strong>Pay Now </strong><em> to avail Special Offer!</em></button>
         <div id="discount">20% Discount available for a Limited Time!</div>

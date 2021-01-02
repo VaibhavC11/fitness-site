@@ -113,7 +113,7 @@ li {
 
 .form {
     border: 2px solid white;
-    margin: 150px 140px;
+    margin: 120px 140px;
     padding: 20px 20px;
     background-image: none;
     background-color: rgb(212, 212, 212);
@@ -140,13 +140,54 @@ li {
     margin-bottom: 20px;
 }
 
+.form-group {
+    margin: 20px auto;
+    display: block;
+}
+
 .form-group input {
     text-align: center;
     width: 75%;
-    float: right;
+    /* float: right; */
     border-radius: 10px;
-    margin: 2px;
+    display: inline-block;
+    margin: 2px auto;
     font-size: 20px;
+}
+#name {
+    position: relative;
+    left: 50px;
+}
+
+#dob {
+    position: relative;
+    left: 5px;
+}
+
+.form-group label select {
+    text-align: center;
+    width: 90%;
+    margin: 2px auto;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    left: 20px;
+}
+
+#address {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px auto;
+    position: relative;
+    left: 25px;
+}
+
+#email {
+    margin-top: -5px;
+    position: relative;
+    left: 50px;
 }
 
 .btn , #discount {
@@ -166,11 +207,28 @@ li {
 }
 
 #submit {
-    margin-top: 150px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(66, 50, 50);
+    color: rgb(243, 182, 174);
+    border-radius: 10px;
+}
+
+#submit:hover {
+    color: yellow;
+    font-size: 35px;
 }
 
 #pay-now {
-    font-size: 40px;
+    font-size: 38px;
     margin-top: 20px;
+    border: 3px solid rgb(235, 131, 131);
+    background-color: rgb(213, 188, 230);
+    border-radius: 15px;
+}
+
+#pay-now:hover {
+    color: rgb(252, 220, 76);
+    font-size: 40px;
+    background-color: rgb(218, 45, 45);
 }
